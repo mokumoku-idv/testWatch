@@ -15,8 +15,20 @@
                                 <action selector="onOk:" destination="AgC-eL-Hgc" id="ANm-f4-Fbp"/>
                             </connections>
                         </button>
+                        <button width="1" alignment="left" title="countup" id="kcl-DX-WSJ">
+                            <connections>
+                                <action selector="countUp" destination="AgC-eL-Hgc" id="GM9-3g-BdU"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="send" id="0Nc-Np-3zA">
+                            <connections>
+                                <action selector="sendCounter" destination="AgC-eL-Hgc" id="KIq-Zu-Tvn"/>
+                            </connections>
+                        </button>
+                        <label alignment="left" text="Label" id="9wZ-vc-8Qn"/>
                     </items>
                     <connections>
+                        <outlet property="label" destination="9wZ-vc-8Qn" id="EOL-FM-e3X"/>
                         <outlet property="okButton" destination="w7F-XU-bAd" id="yoi-cW-wUd"/>
                     </connections>
                 </controller>
