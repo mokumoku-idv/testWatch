@@ -10,6 +10,16 @@ apple watch買うか知らないけど、面白そうなので色々試してみ
 ## 作ったら
 プロジェクトが開いたら、ターゲットにwatchkitを追加してください
 
+##クラスの説明
+クラスの説明をつらつらと
+
+### WKInterfaceController
+AppleWatch側で動くコントローラ
+iPhone側との通信も可能
+
+# シミュレータの動かし方
+xcode→developer tool→iOSシミュレータ
+
 # シミュレータの動かし方
 プロジェクトを実行した後、iOSシミュレータのmenuから、watchkitが起動できます
 http://qiita.com/katsuhisaishii/items/66ee28e51d7a322f8f4c
